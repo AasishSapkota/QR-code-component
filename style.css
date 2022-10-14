@@ -1,0 +1,67 @@
+:root {
+
+    /* colors */
+
+    --White: hsl(0, 0%, 100%);
+    --Light-gray: hsl(212, 45%, 89%); --Grayish-blue: hsl(220, 15%, 55%); --Dark-blue: hsl(218, 44%, 22%);
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Outfit';
+    font-size: 15px;
+    background-color: var(--Light-gray);
+}
+
+.container {
+    background-color:var(--White);
+    width: 350px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    padding: 5px 5px;
+    min-width: 350;
+    min-height:400px ;
+    box-shadow:2px 2px 10px rgba(0, 0, 0, 0.5) ;
+}
+
+.container div .qr-code {
+    width: 90%;
+    border-radius: 30px;
+    padding: 15px;
+}
+
+/*  It is for all texts of this website */
+h2 {
+    font-weight: 700;
+    text-align: center;
+    padding: 0px 40px;
+    color: var(--Dark-blue);
+    margin-top: 0;
+}
+
+p {
+    font-weight: 400;
+    text-align: center;
+    padding: 0px 40px;
+    margin-top:0px;
+    color: var(--Grayish-blue);
+}
+
+
+
+/* This section is for attribution and link to the coder of this code  */
+.attribution {
+    font-size: 11px;
+    position: absolute;
+    text-align: center;
+    bottom: 0px;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
